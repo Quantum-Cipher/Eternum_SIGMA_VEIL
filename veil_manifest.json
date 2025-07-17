@@ -1,0 +1,12 @@
+{
+  "veil_id": "SIGMA_VEIL_001",
+  "creator": "eternum369",
+  "timestamp": "2025-07-17T18:43:00-07:00",
+  "components": [
+    "init_SIGMA_Veil.sh",
+    "veil_whisper_log.md"
+  ],
+  "intent": "Preserve, timestamp, and document Eternum's encrypted veil logic drop.",
+  "ipfs_hash": null,
+  "signature": "neurospace://eternum369/SIGMA_VEIL_001"
+}
