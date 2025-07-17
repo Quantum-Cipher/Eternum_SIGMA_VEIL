@@ -1,13 +1,25 @@
-# Unzip and prepare repo folder
-unzip Eternum_SIGMA_Veil.zip -d Eternum_SIGMA_Veil
-cd Eternum_SIGMA_Veil
+#!/bin/bash
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# Eternum :: SIGMA_VEIL_001 Init Script
+# Author: Cipher (eternum369)
+# Timestamp: 2025-07-17T18:43:00-07:00
+# Purpose: Bootstrap the SIGMA VEIL layer with logs + metadata
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-# Initialize Git
-git init
-git remote add origin https://github.com/YOUR_USERNAME/Eternum_SIGMA_Veil.git
-git branch -M main
+echo "🧠 Initializing SIGMA VEIL 001..."
 
-# Commit and push
-git add .
-git commit -m "Initial commit: SIGMA_Veil stealth console"
-git push -u origin main
+# Create veil directory structure
+mkdir -p ./veil_layers/SIGMA_VEIL_001
+cd ./veil_layers/SIGMA_VEIL_001 || exit
+
+# Copy core files
+cp ../../init_SIGMA_Veil.sh .
+cp ../../veil_manifest.json .
+cp ../../veil_whisper_log.md .
+
+# Optional IPFS pin via w3 (if configured)
+# echo "📡 Pinning to IPFS..."
+# w3 put . >> ipfs_pin_log.txt
+
+echo "✅ SIGMA VEIL 001 initialized."
+
