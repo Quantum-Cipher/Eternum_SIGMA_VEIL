@@ -43,6 +43,19 @@ This log captures the initial deployment and anchoring of SIGMA_VEIL in the dece
 
 ---
 
+## Additional Assets: Frequency Resonance WAVs
+
+This repository now includes sonic frequency signature files (`.wav`) that embody encrypted neuro-frequency patterns aligned with SIGMA VEIL’s cryptographic veil concept. These WAVs enhance the veil’s dimensionality by encoding neural resonance data meant for future neuroplasticity research and consciousness modulation.
+
+They are stored in the `wavs/` directory and pinned immutably via Web3.Storage alongside the core scripts and logs.
+
+---
+
+## Updated Project Structure
+
+
+---
+
 ## Getting Started
 
 1. Clone the repository:
