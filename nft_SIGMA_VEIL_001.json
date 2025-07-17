@@ -1,0 +1,13 @@
+{
+  "name": "SIGMA VEIL 001",
+  "description": "First encoded veil drop from Eternum369. Contains init script, manifest, and whisper log. Timestamped and archived into Neurospace.",
+  "external_url": "https://github.com/Quantum-Cipher/Eternum_SIGMA_VEIL",
+  "image": "ipfs://<optional-hash-if-you-make-a-cover-image>",
+  "animation_url": "ipfs://<optional-veil-zip-hash>",
+  "attributes": [
+    { "trait_type": "Veil ID", "value": "SIGMA_VEIL_001" },
+    { "trait_type": "Layer", "value": "Whisper" },
+    { "trait_type": "Timestamp", "value": "2025-07-17T18:43:00-07:00" },
+    { "trait_type": "Creator", "value": "eternum369" }
+  ]
+}
